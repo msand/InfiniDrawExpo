@@ -1,31 +1,4 @@
 {
-  "expo": {
-    "name": "InfiniDraw Expo",
-    "slug": "InfiniDrawExpo",
-    "privacy": "public",
-    "sdkVersion": "32.0.0",
-    "platforms": [
-      "ios",
-      "android"
-    ],
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "description": "Universal svg drawing with pan and zoom. Builds on Next.js and react-native-web for the web version, and react-native for native apps.\nExpo version of https://github.com/msand/InfiniDraw/\n",
-    "githubUrl": "https://github.com/msand/InfiniDrawExpo"
-  }
+  "displayName": "InfiniDraw Expo",
+  "name": "InfiniDrawExpo"
 }
