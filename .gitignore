@@ -6,3 +6,9 @@ npm-debug.*
 *.key
 *.mobileprovision
 .idea
+ios/infinidraw-expo.xcworkspace
+ios/Pods
+android/local.properties
+android/app/app.iml
+android/app/build
+android/.gradle
