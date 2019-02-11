@@ -2533,6 +2533,13 @@ expo@^32.0.0:
     uuid-js "^0.7.5"
     whatwg-fetch "^2.0.4"
 
+expokit@32.0.6:
+  version "32.0.6"
+  resolved "https://registry.yarnpkg.com/expokit/-/expokit-32.0.6.tgz#a3c2adfdb1daa37d4a9ca629323576508f5e7aa4"
+  integrity sha512-un7Ykh0hdLMgWy8EBTfoXX1PIFAcmLUtGkN+/ug1JU8llAVtFvX3isBVw4H9S9Wtkgb+R0TeHeUxjtXy0DUTyw==
+  dependencies:
+    jsc-android "^224109.1.0"
+
 extend-shallow@^1.1.2:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/extend-shallow/-/extend-shallow-1.1.4.tgz#19d6bf94dfc09d76ba711f39b872d21ff4dd9071"
@@ -3355,6 +3362,11 @@ js-yaml@^3.9.0:
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
+
+jsc-android@^224109.1.0:
+  version "224109.1.0"
+  resolved "https://registry.yarnpkg.com/jsc-android/-/jsc-android-224109.1.0.tgz#9749ec92f1e284b3c09befe7c47cc6e60b1f0cdf"
+  integrity sha512-mhALFynePc/wJsUt9BJuH13mSK/dGWtBO/pcYwVV1I0A7iduyqy3fSoAt1b0yI+/B3TzlGyue/gqjPxsqG1HRQ==
 
 jsesc@^1.3.0:
   version "1.3.0"

@@ -23,9 +23,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "infinidrawexpo.ios",
+      "publishBundlePath": "ios/infinidraw-expo/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/infinidraw-expo/Supporting/shell-app-manifest.json"
     },
     "description": "Universal svg drawing with pan and zoom. Builds on Next.js and react-native-web for the web version, and react-native for native apps.\nExpo version of https://github.com/msand/InfiniDraw/\n",
-    "githubUrl": "https://github.com/msand/InfiniDrawExpo"
+    "githubUrl": "https://github.com/msand/InfiniDrawExpo",
+    "isDetached": true,
+    "detach": {
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.10.2-sdk32.0.0-c59c23cd-1d49-49d2-a633-d03f9d554cf6.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.10.5-sdk32.0.0-8d59e605-f99f-41b8-aad8-caa14d1e299d.tar.gz"
+    },
+    "scheme": "expcad65774eeb74af187bf0b25fc868fce",
+    "android": {
+      "package": "infinidrawexpo.android",
+      "publishBundlePath": "android/app/src/main/assets/shell-app.bundle",
+      "publishManifestPath": "android/app/src/main/assets/shell-app-manifest.json"
+    }
   }
 }
