@@ -4,7 +4,9 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "apollo-boost": "0.1.27",
@@ -25,10 +27,12 @@
     "react-native": "0.59.0",
     "subscriptions-transport-ws": "^0.9.0",
     "tinycolor2": "1.4.1",
-    "zoomable-svg": "4.0.2"
+    "zoomable-svg": "4.0.2",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "babel-preset-expo": "^5.0.0"
   },
-  "private": true
+  "private": true,
+  "snyk": true
 }
