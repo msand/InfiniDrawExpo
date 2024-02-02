@@ -25,7 +25,7 @@
     "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.1.tar.gz",
     "react-native-svg": "9.13.3",
     "recompose": "^0.30.0",
-    "subscriptions-transport-ws": "^0.9.16",
+    "subscriptions-transport-ws": "^0.11.0",
     "tinycolor2": "1.4.1",
     "zoomable-svg": "4.0.2"
   },
